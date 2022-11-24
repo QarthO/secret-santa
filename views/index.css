@@ -1,0 +1,45 @@
+html {
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+body {
+    background-color: rgb(32, 33, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-self: center;
+    justify-content: center;
+    column-gap: 5%;
+    width: 70%;
+    height: 10%;
+    font-size: xx-large;
+}
+
+.person {
+    display: flex;
+    background-color: rgb(154, 30, 30);
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+    color: white;
+}
+
+button {
+    width: 50%;
+}
